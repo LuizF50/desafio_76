@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mistério dos Números Perdidos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O Mistério dos Números Perdidos</h1>
+        <p class="subtitle">Ajude a tribo de matemágicos a desvendar o segredo da sequência mágica</p>
+        
+        <div class="input-container">
+            <label for="sequence-length">Tamanho da sequência (n ≥ 2):</label>
+            <div class="input-wrapper">
+                <input type="number" id="sequence-length" min="2" placeholder="Digite um número ≥ 2">
+            </div>
+        </div>
+        
+        <button class="custom-btn btn-5" id="solve-btn">
+            <span>Revelar Sequência</span>
+        </button>
+        
+        <div class="result-container">
+            <h2>Sequência Mágica:</h2>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
